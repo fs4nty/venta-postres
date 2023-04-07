@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postres</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <header> no se puede colocar una etiqueta de header dentro de otra de header -->
+    <header>
+        <!-- id es el identificador unico que le damos a los elementos (no es bueno ponerle el mismo id a diferentes elementos) -->
+        <h1 id="titulo">Venta de postres</h1>
+    </header>
+    <!-- <section> definir secciones de nuestra pagina, dentro podemos poner las etiquetas que queramos -->
+    <section class="container">
+        <!-- <article> sirve para definir contenido totalmente independiente -->
+        <!-- class es otro identificador, este si se le puede poner a varios elementos el mismo -->
+        <article class="post">
+            <h2>Postre Oreo</h2>
+            <p>Delicioso postre tres leches con oreo y chocolate.</p>
+            <img src="img/astro.png" alt="imagen_post" width="400">
+            <p>Puede personalizarlo a su gusto y tendria un precio de <b>6000$ CO</b>.</p>
+        </article>
+        <article class="post">
+            <h2>Postre Durazno</h2>
+            <p>Delicioso postre tres leches con unos toques de durazno.</p>
+            <img src="img/astro.png" alt="imagen_post" width="400">
+            <p>Puede personalizarlo a su gusto y tendria un precio de <b>6000$ CO</b>.</p>
+        </article>
+        <article class="post">
+            <h2>Postre Cereza</h2>
+            <p>Delicioso postre tres leches con cereza.</p>
+            <img src="img/astro.png" alt="imagen_post" width="400">
+            <p>Puede personalizarlo a su gusto y tendria un precio de <b>6000$ CO</b>.</p>
+        </article>
+    </section>
+    <!-- <footer> pie de pagina, se puede tener multiples -->
+    <footer>
+        <!-- link para ir a una etiqueta en particular con id (#) -->
+        <section>
+            <a href="#titulo">Ir al comienzo</a>
+        </section>
+        Santiago Martinez WEB&copy; 2023
+    </footer>
+</body>
+
+</html>
